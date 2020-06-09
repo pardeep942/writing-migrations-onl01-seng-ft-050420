@@ -10,13 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ctiveRecord::Schema.define(version: 3) do
+ActiveRecord::Schema.define(version: 3) do
 
   create_table "students", force: :cascade do |t|
     t.string "name"
     t.integer "grade"
-    t.datetime "birthdate"
+    t.integer "birthdate"
   end
-
-
 end
