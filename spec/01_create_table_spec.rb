@@ -2,7 +2,7 @@ require_relative 'spec_helper'
 require_relative '../db/migrate/01_create_students'
 
 
-describe 'students' do
+describe 'student' do
   before do
     sql = "DROP TABLE IF EXISTS students"
     ActiveRecord::Base.connection.execute(sql)
