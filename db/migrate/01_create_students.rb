@@ -1,6 +1,6 @@
-class CreateStudents < ActiveRecord: :Migrations[5.2]
+
+def changeclass CreateStudents < ActiveRecord: :Migrations[5.2]
   
-def change
   create_table :students do |t|
     t.string :name
     
